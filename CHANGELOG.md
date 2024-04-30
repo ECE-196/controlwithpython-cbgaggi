@@ -1,14 +1,14 @@
 # CHANGELOG
 
-## {4/29/2024}
+## {4/30/2024}
 ### Contributors
 Chrestine Gaggi
 
 ### Added
-app code and quiz answers
+added the submission video
 
 ### Changed
-nothing has been changed, first submission
+video added to the submission
 
 ### Removed
 ...

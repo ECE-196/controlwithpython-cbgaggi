@@ -2,9 +2,8 @@ from __future__ import annotations
 from threading import Thread, Lock
 from serial import Serial, SerialException
 from serial.tools.list_ports import comports
-
-import tkinter as tk
 import tkinter.ttk as ttk
+import tkinter as tk
 from tkinter.messagebox import showerror
 
 S_OK: int = 0xaa
@@ -62,7 +61,7 @@ class App(tk.Tk):
         ttk.Button(self, text='Send Invalid', command=self.send_invalid).pack()
         ttk.Button(self, text='Disconnect', command=self.disconnect, default='active').pack()
 
-        SerialPortal(self)    
+        SerialPortal(self)
 
     @detached_callback
     def connect(self):
